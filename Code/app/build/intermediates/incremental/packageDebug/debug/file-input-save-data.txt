@@ -1,0 +1,36 @@
+#Internal package file, do not edit.
+#Sun Mar 10 12:47:30 PDT 2019
+2.base=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
+5.file=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11\\classes.dex
+5.set=DEX
+3.base=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
+6.file=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12\\classes.dex
+2.set=ANDROID_RESOURCE
+10.set=DEX
+10.file=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14\\classes.dex
+4.base=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
+7.file=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\resources.arsc
+7.set=ANDROID_RESOURCE
+count=11
+0.file=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_launcher.png
+5.base=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+8.file=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\image.JPG
+4.set=ANDROID_RESOURCE
+6.base=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+1.file=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15\\classes.dex
+9.set=DEX
+9.file=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16\\classes.dex
+10.base=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+1.set=DEX
+7.base=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
+2.file=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\layout\\activity_a.xml
+6.set=DEX
+0.base=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
+8.base=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
+3.file=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13\\classes.dex
+3.set=DEX
+1.base=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
+9.base=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
+4.file=C\:\\Users\\Shish\\Downloads\\assignment5_mobile_code(1)\\assignment4_mobile_code\\activity-lifecycle\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\AndroidManifest.xml
+8.set=ANDROID_RESOURCE
+0.set=ANDROID_RESOURCE

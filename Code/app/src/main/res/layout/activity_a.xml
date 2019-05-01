@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2012 The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    android:padding="8dip">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="373dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="16dip"
+            android:text="@string/activity_a"
+            android:textColor="#ffff"
+            android:textSize="20dp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/temp_view"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Temperature : "
+            android:textColor="@color/light_blue"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/edittemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/temp_view"
+            android:ems="10"
+            android:hint=""
+             android:inputType="text"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/humidity_view"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Humidity : "
+            android:textColor="@color/light_blue"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/humidityurl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/humidity_view"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/activity_view"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Activity : "
+            android:textColor="@color/light_blue"
+            android:textSize="20dp"  />
+        <TextView
+            android:id="@+id/activityurl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/activity_view"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/number_view"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Nuumber of Sensor Readings : "
+            android:textColor="@color/light_blue"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/number_view"
+            android:ems="10"
+            android:hint=""
+            android:inputType="text"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/generatebtn"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:onClick="generate"
+            android:text="Generate"
+            android:background="#00b600"
+            android:textColor="#fff"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/cancelbtn"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:onClick="startDialog"
+            android:layout_centerInParent="true"
+            android:text="Cancel"
+            android:background="#ff6347 "
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/output_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Output :"
+        android:textColor="@color/light_blue"
+        android:textSize="@dimen/font_medium" />
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/output"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:scrollbars="vertical"
+            android:layout_centerInParent="true"
+            android:background="#808080"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
